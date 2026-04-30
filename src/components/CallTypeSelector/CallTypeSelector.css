@@ -1,0 +1,35 @@
+.call-type-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call-type-menu-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px 4px;
+  min-width: 280px;
+}
+
+.call-type-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.call-type-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.call-type-description {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 1.4;
+}
+
+.call-type-menu-item:hover .call-type-label {
+  color: #1890ff;
+}

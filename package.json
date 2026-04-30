@@ -1,0 +1,35 @@
+{
+  "name": "client-app-agora",
+  "version": "1.0.0",
+  "description": "Agora Video SDK - Universal Application (Create/Join Video Calls - Host & Participant)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3002 --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@microsoft/signalr": "^10.0.0",
+    "@twilio/voice-sdk": "^2.18.2",
+    "agora-access-token": "^2.0.4",
+    "agora-rtc-sdk-ng": "^4.20.0",
+    "antd": "^5.12.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}

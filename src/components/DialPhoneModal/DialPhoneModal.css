@@ -1,0 +1,64 @@
+.dial-phone-modal .dial-phone-content {
+  padding: 16px 0;
+}
+
+.dial-phone-modal .channel-info {
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.dial-phone-modal .channel-info strong {
+  color: #1890ff;
+}
+
+.dial-phone-modal .channel-info span {
+  color: #262626;
+  font-weight: 500;
+}
+
+.dial-phone-modal .phone-input-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.dial-phone-modal .country-code-select {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.dial-phone-modal .phone-number-input {
+  flex: 1;
+}
+
+.dial-phone-modal .input-hint {
+  color: #8c8c8c;
+  font-size: 12px;
+  margin-bottom: 16px;
+  padding-left: 4px;
+}
+
+.dial-phone-modal .input-hint small {
+  line-height: 1.6;
+}
+
+.dial-phone-modal .dial-info {
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.dial-phone-modal .dial-info p {
+  margin: 0;
+  color: #096dd9;
+  font-size: 13px;
+}
+
+.dial-phone-modal .dial-info svg {
+  margin-right: 6px;
+  color: #52c41a;
+}
